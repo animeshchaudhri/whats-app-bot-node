@@ -1,9 +1,12 @@
 const qrcode = require('qrcode-terminal');
 const axios = require('axios');
+const fs = require('fs');
 const { MessageMedia } = require('whatsapp-web.js');
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const client = new Client({
     authStrategy: new LocalAuth()
+    
+    
 });
 
  
