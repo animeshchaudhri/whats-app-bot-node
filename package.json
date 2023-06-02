@@ -5,10 +5,9 @@
     "qrcode-generator": "^1.4.4",
     "qrcode-terminal": "^0.12.0",
     "whatsapp-web.js": "^1.21.0"
-  }
+  },
   "scripts": {
-  "build": "echo 'No build step required'",
-  "start": "node index.js"
-}
-
+    "build": "echo 'No build step required'",
+    "start": "node index.js"
+  }
 }
